@@ -1,0 +1,84 @@
+/* Style the body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #fffffffa;
+  }
+  
+  
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #0562afa6;
+    color: rgb(250, 250, 250);
+  }
+  
+  
+  .navbar {
+    display: flex;
+    background-color: #000000;
+  }
+  
+ 
+  .navbar a {
+    color: rgb(255, 255, 255);
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 3, 197);
+  }
+  
+ 
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  
+  .side {
+    flex: 25%;
+    background-color: #ffffff;
+    padding: 15px;
+  }
+  
+  
+  .main {
+    flex: 1000%;
+    background-color: rgb(255, 253, 253);
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+   
+    
+  }
+  .dark-mode {
+
+    background-color: #fffefe;
+    color: #ffffff;
+  }
+  .post {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+    
+  }
+  
+ 
+  @media screen and (max-width: 500px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }

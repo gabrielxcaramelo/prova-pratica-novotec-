@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade css grid e flexbox</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!----------------dark-mode----------------->
+<img src = "estrela.png" width="150" heigth="150" class ="post" onclick="DarkMode()" />
+
+
+<script>
+    function darkmode(){
+        let minhaImagem = document.querySelector('img');
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        let meuSrc = minhaImagem.getattribute('src');
+        if (meuSrc === 'estrela.png'){
+            minhaImagem.setAttribute('src',  'lua.png');
+        }else{
+            minhaImagem.setAttribute('src','estrela.png' );
+        }
+    
+    }
+</script>
+
+
+
+
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+    <div style="background:#ffffff;padding:5px">
+        <h4 style="text-align:center">www.acessibilidade digital.com </h4>
+    </div>
+
+    <div class="header">
+        <img src=>
+        <h1> Acessibilidade digital</h1>
+
+    </div>
+
+    <div class="navbar">
+        <a href="#">Saiba mais</a>
+        <a href="#">contato</a>
+        <a href="#">clientes</a>
+        <a href="#">solucões</a>
+
+
+    </div>
+
+    <div class="main">
+        <br>
+        <h2>o que é?</h2>
+        <h5>A Acessibilidade Digital é a melhoria do design da usabilidade dos websites, através de técnicas e
+            <br>
+            ferramentas que melhorem a experiência de usuários com necessidades especiais. Assim, reduz as barreiras e
+            <br>
+            permite que pessoas com diferentes tipos de deficiência consigam acessar sozinhas websites e informações
+            <br>
+            disponíveis na internet. Sem a acessibilidade, os usuários perdem autonomia e precisam contar com a ajuda de
+            <br>
+            terceiros para executar tarefas simples e essenciais.
+        </h5>
+
+        <div class="fakeimg" style="height:200px;"><img src="imagem9000.jpg"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Beneficios da acessibilidade</h2>
+        <h5>
+            <br>
+            Promove a igualdade social.
+            <br>
+            Ampliação do público.
+            <br>
+            Humanização e impacto da marca.
+            <br>
+            Inovação.
+            <br>
+            Fidelização dos usuários e clientes.
+        </h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6E4rdDf4iEU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </div>
+    </div>
+
+    <div class="footer">
+        <h2></h2>
+    </div>
+
+
+
+</body>
+
+</html>
